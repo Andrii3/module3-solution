@@ -2,57 +2,160 @@
 <html>
 <head>
     <title>Assisment solution for module 3</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div id="headerName">
+                    <h1>Food, LLC</h1>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#mobileView" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="mobileView" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right  visible-xs">
+                    <li class="black">
+                        <a href="#chicken">Chicken</a>
+                    </li>
+                    <li class="black">
+                        <a href="#beef">Beef</a>
+                    </li>
+                    <li class="black">
+                        <a href="#sushi">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
 <h1 align="center">Our Menu</h1>
 
 <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="box">
-            <div class="row">
-                <div class="col-lg-4 boxName col-offset-8" id="chicken">
-                    <p align="center">Chicken</p>
-                </div>
+            <div class="row" id="chicken">
+                <p align="center">Chicken</p>
             </div>
             <div class="row text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, no sea agam mediocritatem. Sea cu quem mentitum scripserit, ius et affert
+                    ancillae argumentum, no vix elit incorrupte. An essent docendi abhorreant cum, tollit accusamus ne
+                    vel. Id duo audire platonem maluisset, eu vel duis contentiones, nam in adhuc iuvaret deleniti. In
+                    eum nihil dicant scripserit, ignota diceret patrioque quo te, ad ludus atomorum adversarium usu. Te
+                    probo partem virtute vis, cu duo sumo suas repudiare, an per mucius vivendum interpretaris.
+
+                    Ne mei omnis disputationi, vix tamquam intellegebat in, usu qualisque abhorreant cu. Mei cu erant
+                    mnesarchum. Quas eruditi admodum eam in, prompta assueverit voluptatibus ne per. Mei appareat
+                    interpretaris at, meliore salutatus similique ut sed, ius no dico admodum. Ex sed stet splendide
+                    dissentiet.
+
+                    Nec mundi bonorum appareat an, per liber pericula democritum eu, eu numquam adolescens his. Vel
+                    movet laudem ne, ne vis quando graece labitur. Autem ornatus principes usu ea, no pri aeque
+                    atomorum, no fuisset repudiandae theophrastus mea. Nam porro ocurreret ex. Facilis phaedrum et sea,
+                    an sea dicat habemus molestie, nam eu doctus lobortis nominati. At sit agam inermis recteque, te
+                    agam putant mel, vitae dignissim quaerendum in has.
+
+                    Deleniti consulatu ea usu. Has verear officiis maiestatis et, has cu nibh omnesque, eam an ipsum
+                    inciderint. An vim movet homero, sit nibh maiestatis ad, utamur fastidii ponderum eum te. Nec et
+                    tritani appellantur. Ei per putant qualisque consequuntur, sanctus electram eum ei. Te laboramus
+                    concludaturque duo, mandamus patrioque torquatos ex per.
+
+                    No vel idque utamur, et vix aliquam placerat democritum. Ullum essent his ea, diam perfecto usu id.
+                    Quo nonumy interpretaris et. Alii omnes detraxit in sit. Ex sea paulo admodum cotidieque, malis
+                    definitionem usu id. An accusamus neglegentur eam.</p>
+            </div>
+            <div class="visible-xs">
+                <a href="#chicken">Back to top</a>
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="box">
-            <div class="row">
-                <div class="col-lg-4 boxName col-offset-8" id="beef">
-                    <p align="center">Beef</p>
-                </div>
+            <div class="row" id="beef">
+                <p align="center">Beef</p>
             </div>
             <div class="row text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, no sea agam mediocritatem. Sea cu quem mentitum scripserit, ius et affert
+                    ancillae argumentum, no vix elit incorrupte. An essent docendi abhorreant cum, tollit accusamus ne
+                    vel. Id duo audire platonem maluisset, eu vel duis contentiones, nam in adhuc iuvaret deleniti. In
+                    eum nihil dicant scripserit, ignota diceret patrioque quo te, ad ludus atomorum adversarium usu. Te
+                    probo partem virtute vis, cu duo sumo suas repudiare, an per mucius vivendum interpretaris.
+
+                    Ne mei omnis disputationi, vix tamquam intellegebat in, usu qualisque abhorreant cu. Mei cu erant
+                    mnesarchum. Quas eruditi admodum eam in, prompta assueverit voluptatibus ne per. Mei appareat
+                    interpretaris at, meliore salutatus similique ut sed, ius no dico admodum. Ex sed stet splendide
+                    dissentiet.
+
+                    Nec mundi bonorum appareat an, per liber pericula democritum eu, eu numquam adolescens his. Vel
+                    movet laudem ne, ne vis quando graece labitur. Autem ornatus principes usu ea, no pri aeque
+                    atomorum, no fuisset repudiandae theophrastus mea. Nam porro ocurreret ex. Facilis phaedrum et sea,
+                    an sea dicat habemus molestie, nam eu doctus lobortis nominati. At sit agam inermis recteque, te
+                    agam putant mel, vitae dignissim quaerendum in has.
+
+                    Deleniti consulatu ea usu. Has verear officiis maiestatis et, has cu nibh omnesque, eam an ipsum
+                    inciderint. An vim movet homero, sit nibh maiestatis ad, utamur fastidii ponderum eum te. Nec et
+                    tritani appellantur. Ei per putant qualisque consequuntur, sanctus electram eum ei. Te laboramus
+                    concludaturque duo, mandamus patrioque torquatos ex per.
+
+                    No vel idque utamur, et vix aliquam placerat democritum. Ullum essent his ea, diam perfecto usu id.
+                    Quo nonumy interpretaris et. Alii omnes detraxit in sit. Ex sea paulo admodum cotidieque, malis
+                    definitionem usu id. An accusamus neglegentur eam.</p>
+            </div>
+            <div class="visible-xs">
+                <a href="#beef">Back to top</a>
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="col-md-4 col-sm-12 col-xs-12">
         <div class="box">
-            <div class="row">
-                <div class="col-lg-4 col-md-2 boxName col-offset-8 col-md-offset-10" id="sushi">
-                    <p align="center">Sushi</p>
-                </div>
+            <div class="row" id="sushi">
+                <p align="center">Sushi</p>
             </div>
             <div class="row text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, no sea agam mediocritatem. Sea cu quem mentitum scripserit, ius et affert
+                    ancillae argumentum, no vix elit incorrupte. An essent docendi abhorreant cum, tollit accusamus ne
+                    vel. Id duo audire platonem maluisset, eu vel duis contentiones, nam in adhuc iuvaret deleniti. In
+                    eum nihil dicant scripserit, ignota diceret patrioque quo te, ad ludus atomorum adversarium usu. Te
+                    probo partem virtute vis, cu duo sumo suas repudiare, an per mucius vivendum interpretaris.
+
+                    Ne mei omnis disputationi, vix tamquam intellegebat in, usu qualisque abhorreant cu. Mei cu erant
+                    mnesarchum. Quas eruditi admodum eam in, prompta assueverit voluptatibus ne per. Mei appareat
+                    interpretaris at, meliore salutatus similique ut sed, ius no dico admodum. Ex sed stet splendide
+                    dissentiet.
+
+                    Nec mundi bonorum appareat an, per liber pericula democritum eu, eu numquam adolescens his. Vel
+                    movet laudem ne, ne vis quando graece labitur. Autem ornatus principes usu ea, no pri aeque
+                    atomorum, no fuisset repudiandae theophrastus mea. Nam porro ocurreret ex. Facilis phaedrum et sea,
+                    an sea dicat habemus molestie, nam eu doctus lobortis nominati. At sit agam inermis recteque, te
+                    agam putant mel, vitae dignissim quaerendum in has.
+
+                    Deleniti consulatu ea usu. Has verear officiis maiestatis et, has cu nibh omnesque, eam an ipsum
+                    inciderint. An vim movet homero, sit nibh maiestatis ad, utamur fastidii ponderum eum te. Nec et
+                    tritani appellantur. Ei per putant qualisque consequuntur, sanctus electram eum ei. Te laboramus
+                    concludaturque duo, mandamus patrioque torquatos ex per.
+
+                    No vel idque utamur, et vix aliquam placerat democritum. Ullum essent his ea, diam perfecto usu id.
+                    Quo nonumy interpretaris et. Alii omnes detraxit in sit. Ex sea paulo admodum cotidieque, malis
+                    definitionem usu id. An accusamus neglegentur eam.</p>
+            </div>
+            <div class="visible-xs">
+                <a href="#sushi">Back to top</a>
             </div>
         </div>
     </div>

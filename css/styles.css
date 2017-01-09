@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+#chicken {
+}
+
+#beef {
+
+}
+
+#sushi {
+
+}
+
+.box {
+    background-color: grey;
+    min-height: 130px;
+    height: auto;
+    margin: 10px;
+    border: solid 2px black;
+    overflow: hidden;
+}
+
+.row {
+    margin-left: 5px;
+}
+
+.col-offset-8 {
+    margin-left: 66.66%;
+}
+
+.text {
+    padding: 10px;
+    float: left;
+}
+
+p {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+}
+
+#header-nav {
+    background-color: #c8ffd4;
+}
+#headerName {
+    float: left;
+}
+
+ul {
+    text-align: center;
+}
+
